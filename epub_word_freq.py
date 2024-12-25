@@ -49,6 +49,6 @@ def process_epub(epub_path: str, output_path: str):
 
 # Example usage
 if __name__ == "__main__":
-    epub_path = '1984.epub'  # Replace with your EPUB file path
+    epub_path = 'book.epub'  # Replace with your EPUB file path
     output_path = 'word_frequencies.txt'  # Output file
     process_epub(epub_path, output_path)
